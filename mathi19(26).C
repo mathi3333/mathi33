@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+clrscr;
+int n,fact=1,i;
+printf("enter the value");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+fact=fact*i;
+}
+printf("%d",fact);
+return 0;
+getch 0;
+
+}
