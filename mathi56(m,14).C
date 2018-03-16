@@ -2,7 +2,8 @@
 #include<string.h>
 int main(void) 
 {
-clrscr;
+	
+	clrscr;
 	char str[20];
 	int n,i,flag;
 	printf("enter the string:");
@@ -33,10 +34,12 @@ clrscr;
 		printf("\n yes");
 	}
 	else
-	{
+	  
+		
+		
 		printf("\n no");
 	}
 
 	return 0;
-  getch;
+           getch;
 }
